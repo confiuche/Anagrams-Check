@@ -24,13 +24,6 @@
 
 
 function checkStringsAnagram(a, b) {
-    // Checking the length
-    let len1 = a.length;
-    let len2 = b.length;
-    if(len1 !== len2){
-       return (console.log('Invalid Input'));
-    }
-
     //
     let str1 = a.split('').sort().join('');
     console.log(str1)
@@ -44,4 +37,3 @@ function checkStringsAnagram(a, b) {
  }
  checkStringsAnagram("indian","ndiani")
  checkStringsAnagram("hackathon", "achcthoon")
- checkStringsAnagram("hackathon", "zpbdefg")
